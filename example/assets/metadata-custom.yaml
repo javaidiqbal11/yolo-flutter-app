@@ -1,0 +1,51 @@
+description: Ultralytics YOLOv8n-cls model trained on ../datasets/imagenet
+author: Ultralytics
+license: AGPL-3.0 https://ultralytics.com/license
+date: "2023-10-20T12:49:47.656006"
+version: 8.0.199
+stride: 32
+task: detect
+batch: 1
+imgsz:
+  - 640
+  - 640
+names:
+  0: spent_solvents
+  1: acid_alkaline_or_saline_wastes
+  2: used_oils
+  3: spent_chemical_catalysts
+  4: chemical_preparation_wastes
+  5: chemical_deposits_and_residues
+  6: industrial_effluent_sludges
+  7: sludges_and_liquid_wastes_from_waste_treatment
+  8: health_care_and_biological_wastes
+  9: metal_waste_ferrous
+  10: metal_waste_non_ferrous
+  11: metal_wastes_mixed_ferrous_and_non_ferrous
+  12: glass_wastes
+  13: paper_and_cardboard_wastes
+  14: rubber_wastes
+  15: plastic_wastes
+  16: wood_wastes
+  17: textile_wastes
+  18: waste_containing_PCB
+  19: discarded_equipment
+  20: discarded_vehicles
+  21: batteries_and_accumulators_wastes
+  22: animal_and_mixed_food_waste
+  23: vegetal_wastes
+  24: slurry_and_manure
+  25: household_and_similar_wastes
+  26: mixed_and_undifferentiated_materials
+  27: sorting_residues
+  28: common_sludges
+  29: construction_and_demolition_wastes
+  30: asbestos_waste
+  31: waste_of_naturally_occurring_minerals
+  32: combustion_wastes
+  33: various_mineral_wastes
+  34: soils
+  35: dredging_spoil
+  36: waste_from_waste_treatment
+  37: solidified_stabilised_or_vitrified_waste
+  38: unknown
